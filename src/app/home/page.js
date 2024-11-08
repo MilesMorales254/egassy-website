@@ -89,9 +89,11 @@ export default function HomePage() {
             </div>
 
             <Link href={`/home/${article.slug}`} passHref>
+            <a>
               <h3 className="text-white font-bold text-lg mb-2 absolute bottom-16 left-4 right-4 cursor-pointer">
                 {article.title}
               </h3>
+              </a>
             </Link>
 
             <hr className="border-t border-gray-400 opacity-50 mb-2 absolute bottom-12 left-4 right-4" />
