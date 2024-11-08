@@ -89,11 +89,9 @@ export default function HomePage() {
             </div>
 
             <Link href={`/home/${article.slug}`} passHref>
-            <a>
               <h3 className="text-white font-bold text-lg mb-2 absolute bottom-16 left-4 right-4 cursor-pointer">
                 {article.title}
               </h3>
-              </a>
             </Link>
 
             <hr className="border-t border-gray-400 opacity-50 mb-2 absolute bottom-12 left-4 right-4" />
@@ -120,7 +118,7 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row items-center justify-between lg:gap-16">
           {/* Image */}
           <div className="flex-none lg:w-[50%]">
-            <image
+            <Image
               src="/images/Fountain Pen.webp" // Replace with your image path
               alt="Fountain Pen"
               className="w-full h-auto max-w-[625px] object-cover"

@@ -56,14 +56,12 @@ export default function BlogPage() {
                 by {article.author} · {article.date}
               </p>
               <Link href={`/home/${article.slug}`} passHref>
-              <a>
                 <h2
                   className="text-2xl font-bold hover:underline"
                   style={{ fontFamily: "Georgia, serif", color: "#323231" }}
                 >
                   {article.title}
                 </h2>
-                </a>
               </Link>
               <p
                 className="text-gray-800"

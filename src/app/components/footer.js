@@ -7,7 +7,6 @@ export default function Footer() {
       {/* Main Title (Clickable and Left-Aligned) */}
       <div className="flex justify-center md:justify-start max-w-[1200px] mx-auto px-8 mb-6">
         <Link href="/" passHref>
-        <a>
           <h2
             className="font-bold cursor-pointer"
             style={{
@@ -19,7 +18,6 @@ export default function Footer() {
           >
             ERIC GASSY
           </h2>
-          </a>
         </Link>
       </div>
 

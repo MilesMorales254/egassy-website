@@ -1,8 +1,11 @@
-"use client"; 
+"use client";
 
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 export default function LandingPage() {
+  const router = useRouter();
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#FAF9F6] text-[#323231] p-4 sm:p-8">
       {/* Main Title */}
@@ -32,7 +35,7 @@ export default function LandingPage() {
       {/* Button */}
       <button
         className="w-[150px] h-[50px] sm:w-[180px] sm:h-[60px] md:w-[200px] md:h-[70px] lg:w-[227px] lg:h-[80px] bg-[#323231] text-white rounded-[300px] flex items-center justify-center hover:bg-[#FAF9F6] hover:text-[#323231] border border-solid border-[#323231] transition-colors"
-        onClick={() => window.location.href = "/home"}
+        onClick={() => router.push("/home")}
       >
         <span className="font-bold mr-2 text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]">Explore</span>
         <div className="flex items-center justify-center w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] md:w-[26px] md:h-[26px] lg:w-[28px] lg:h-[28px] rounded-full border border-current transition-colors">
