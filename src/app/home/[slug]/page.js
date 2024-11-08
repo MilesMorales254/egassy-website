@@ -39,12 +39,12 @@ export default function BlogPostPage() {
           <p className="mt-4 text-gray-600">
             The article you are looking for does not exist or may have been removed.
           </p>
-          <a
+          <link
             href="/home"
             className="mt-8 inline-block px-6 py-2 border border-black text-black hover:bg-black hover:text-white transition-colors"
           >
             Back to Home
-          </a>
+          </link>
         </div>
       </div>
     );
@@ -81,7 +81,7 @@ export default function BlogPostPage() {
 
             {/* Dynamically Render Content Images */}
             {Array.from({ length: post.imageCount }).map((_, index) => (
-              <img
+              <image
                 key={index}
                 src={`${post.content}/Photo (${index + 1}).jpg`}
                 alt={`Page ${index + 1}`}

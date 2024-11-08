@@ -118,7 +118,7 @@ export default function HomePage() {
         <div className="flex flex-col md:flex-row items-center justify-between lg:gap-16">
           {/* Image */}
           <div className="flex-none lg:w-[50%]">
-            <img
+            <image
               src="/images/Fountain Pen.webp" // Replace with your image path
               alt="Fountain Pen"
               className="w-full h-auto max-w-[625px] object-cover"

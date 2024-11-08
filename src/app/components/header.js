@@ -11,9 +11,9 @@ export default function Header() {
     <>
       {/* Header with logo and bottom border */}
       <header className="flex items-center justify-between h-[70px] w-full px-4 sm:px-8 border-b-2 border-[#323231]">
-        <a href="/" className="text-2xl font-bold">
-          <img src="/E.G.svg" alt="Logo" className="h-[40px]" />
-        </a>
+        <link href="/" className="text-2xl font-bold">
+          <image src="/E.G.svg" alt="Logo" className="h-[40px]" />
+        </link>
 
         {/* Hamburger Icon for Mobile */}
         <button
@@ -26,22 +26,22 @@ export default function Header() {
 
       {/* Desktop Horizontal Menu Below Header */}
       <nav className="hidden sm:flex space-x-8 mt-4 ml-8">
-        <a
+        <link
           href="/home"
           className={`text-lg italic ${
             pathname === '/home' ? 'text-black underline underline-offset-4' : 'text-gray-500'
           } hover:underline underline-offset-4`}
         >
           Home
-        </a>
-        <a
+        </link>
+        <link
           href="/blog"
           className={`text-lg italic ${
             pathname === '/blog' ? 'text-black underline underline-offset-4' : 'text-gray-500'
           } hover:underline underline-offset-4`}
         >
           Blog
-        </a>
+        </link>
       </nav>
 
       {/* Mobile Menu Overlay Positioned Below Header */}
@@ -49,7 +49,7 @@ export default function Header() {
         <div className="fixed inset-0 bg-[#FAF9F6] bg-opacity-95 flex flex-col items-center p-8 z-50">
           {/* Scrollable Menu Container */}
           <div className="flex flex-col items-center space-y-6 mt-[100px] overflow-y-auto max-h-[calc(100vh-100px)] w-full px-8">
-            <a
+            <link
               href="/home"
               onClick={() => setIsMenuOpen(false)}
               className={`text-2xl italic ${
@@ -57,8 +57,8 @@ export default function Header() {
               } hover:underline`}
             >
               Home
-            </a>
-            <a
+            </link>
+            <link
               href="/blog"
               onClick={() => setIsMenuOpen(false)}
               className={`text-2xl italic ${
@@ -66,7 +66,7 @@ export default function Header() {
               } hover:underline`}
             >
               Blog
-            </a>
+            </link>
           </div>
 
           {/* Close Button at the Bottom */}
