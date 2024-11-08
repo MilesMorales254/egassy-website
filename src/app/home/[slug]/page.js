@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import Link from 'next/link';
+import Image from 'next/image';
 import Header from "../../components/header";
 import Footer from "../../components/footer"; // Ensure lowercase "f" matches your filename
 

@@ -1,5 +1,7 @@
 import Head from "next/head";
 import localFont from "next/font/local";
+import Link from 'next/link';
+import Image from 'next/image';
 import "./globals.css";
 
 const geistSans = localFont({
