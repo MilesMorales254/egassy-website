@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "title": "Unheard Voices: The Handwritten Story of Eric Gassy and the Injustice He Faced",
+      "author": "Eric Gassy",
+      "date": "Apr 16",
+      "image": "/images/article1.webp",
+      "snippet": "Amid ink-stained pages and whispered truths, Eric Gassy's narrative emerges—a testament to an indomitable spirit, unyielding to silence.",
+      "slug": "unheard-voices-eric-gassy",
+      "content": "/content/unheard-voices-eric-gassy",
+      "views": 16,
+      "likes": 2,
+      "imageCount": 38
+    },
+    {
+      "id": 2,
+      "title": "Eric Gassy's Appeal Denied: The Battle Rages On",
+      "author": "Eric Gassy",
+      "date": "Jul 17",
+      "image": "/images/article2.webp",
+      "snippet": "Eric Gassy’s quest for justice faces another hurdle as his court appeal is denied. Despite this setback, the fight continues, with supporters rallying behind him.",
+      "slug": "eric-gassy-appeal-denied",
+      "content": "/content/eric-gassy-appeal-denied",
+      "views": 74,
+      "likes": 20,
+      "imageCount": 45
+    }
+  ]
+  
