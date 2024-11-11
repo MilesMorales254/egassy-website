@@ -118,13 +118,13 @@ export default function HomePage() {
 
         <div className="flex flex-col md:flex-row items-center justify-between lg:gap-16">
           {/* Image */}
-          <div className="flex-none lg:w-[50%]">
-            <Image
-              src="/images/Fountain Pen.webp" // Replace with your image path
-              alt="Fountain Pen"
-              className="w-full h-auto max-w-[625px] object-cover"
-            />
-          </div>
+          <Image
+            src="/images/Fountain Pen.webp" // Replace with your image path
+            alt="Fountain Pen"
+            width={625} // Adjust to the desired width
+            height={337} // Adjust to the desired height
+            className="w-full h-auto max-w-[625px] object-cover"
+          />
 
           {/* Text Content */}
           <div className="flex-1 max-w-[500px] lg:w-[50%] flex flex-col justify-center mt-4 sm:mt-0">

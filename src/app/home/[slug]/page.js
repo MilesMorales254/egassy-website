@@ -86,12 +86,14 @@ export default function BlogPostPage() {
             {/* Dynamically Render Content Images */}
             {Array.from({ length: post.imageCount }).map((_, index) => (
               <Image
-                key={index}
-                src={`${post.content}/Photo (${index + 1}).jpg`}
-                alt={`Page ${index + 1}`}
-                className="w-full max-w-[800px] mx-auto"
-                loading="lazy"
-              />
+              key={index}
+              src={`${post.content}/Photo (${index + 1}).jpg`}
+              alt={`Page ${index + 1}`}
+              width={800} // Adjust to actual image width
+              height={600} // Adjust to actual image height
+              className="w-full max-w-[800px] mx-auto"
+              loading="lazy"
+                        />
             ))}
           </div>
 
