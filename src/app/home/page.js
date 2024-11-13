@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from 'next/image';
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Head from "next/head";
 
 export default function HomePage() {
   const [articles, setArticles] = useState([]);
@@ -17,6 +18,7 @@ export default function HomePage() {
   }, []);
 
   return (
+
     <div className="min-h-screen bg-[#FAF9F6]">
       <Header />
 
