@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Link from 'next/link';
 import Image from 'next/image';
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff", // Path inside `src/app/fonts`
